@@ -1,0 +1,50 @@
+{
+	"name": "ncli",
+	"description": "CLI to create Node.js CLIs.",
+	"version": "0.0.1",
+	"bin": {
+		"create-node-cli": "index.js",
+		"ncli": "index.js"
+	},
+	"license": "MIT",
+	"repository": "muhammadumair1019/ncli",
+	"author": {
+		"name": "Muhammad Umair",
+		"email": "muhammad.umair1019@gmail.com",
+		"url": "https://twitter.com/MrUmairAfzal"
+	},
+	"files": [
+		"index.js",
+		"utils",
+		"template"
+	],
+	"type": "module",
+	"keywords": [
+		"create-node-cli",
+		"Create Node.js CLI",
+		"Build Node CLI",
+		"node cli",
+		"nodejs",
+		"Umair",
+		"Muhammad Umair"
+	],
+	"devDependencies": {
+		"prettier": "^3.0.2"
+	},
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"alerta-cli": "^1.0.0",
+		"chalk": "^5.3.0",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-welcome": "^2.2.2",
+		"copy-template-dir": "^1.4.0",
+		"enquirer": "^2.4.1",
+		"execa": "^8.0.1",
+		"meow": "^12.1.0",
+		"ora": "^7.0.1"
+	}
+}
