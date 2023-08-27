@@ -1,10 +1,11 @@
 {
-	"name": "ncli",
+	"name": "@umair-dev/ncli",
 	"description": "CLI to create Node.js CLIs.",
 	"version": "0.0.1",
 	"bin": {
 		"create-node-cli": "index.js",
-		"ncli": "index.js"
+		"ncli": "index.js",
+		"@umair-dev/ncli": "index.js"
 	},
 	"license": "MIT",
 	"repository": "muhammadumair1019/ncli",
