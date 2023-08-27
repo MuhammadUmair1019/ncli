@@ -7,9 +7,9 @@
  * @author {{authorName}} <{{authorUrl}}>
  */
 
-import init from '../utils/init';
-import cli from './utils/cli';
-import log from './utils/log';
+import init from './utils/init.js';
+import cli from './utils/cli.js';
+import log from './utils/log.js';
 
 const input = cli.input;
 const flags = cli.flags;
