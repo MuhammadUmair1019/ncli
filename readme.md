@@ -27,10 +27,13 @@
 
 ```sh
 # Recommended.
+npx @umair-dev/ncli
+
+# OR alias 
 npx ncli
 
 # OR an alternative global install.
-npm install -g ncli
+npm install -g @umair-dev/ncli
 ```
 
 <br>
@@ -42,11 +45,15 @@ npm install -g ncli
 1. Run the CLI using
 
 ```sh
-npx ncli
+npx @umair-dev/ncli
 
 # OR for global install
-ncli
+@umair-dev/ncli
+
 # OR alias for global install
+@umair-dev/ncli
+
+# OR alias
 ncli
 ```
 
