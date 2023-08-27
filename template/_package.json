@@ -12,6 +12,7 @@
 		"email": "{{authorEmail}}",
 		"url": "{{authorUrl}}"
 	},
+	"type": "module",
 	"scripts": {
 		"format": "prettier --write \"./**/*.{js,json}\""
 	}
